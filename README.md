@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# Todo-app
-=======
 # Inlämningsuppgift Todo
 
 I denna inlämningsuppgift kommer ni att skapa er egen todo-lista.
