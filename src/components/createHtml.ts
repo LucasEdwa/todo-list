@@ -7,11 +7,11 @@ export const createHtml = () => {
   document.body.className = "m-0 p-0"; 
 
   if (app) {
-    app.className = "flex flex-col lg:flex-row  gap-2 lg:gag-0 items-center bg-app-bg bg-cover bg-center bg-no-repeat justify-center h-screen font-poppins p-4"; 
+    app.className = "flex flex-col lg:flex-row  gap-2  items-center bg-app-bg bg-cover bg-center bg-no-repeat justify-center h-screen font-poppins p-4"; 
   }
 
   const container: HTMLDivElement = document.createElement("div");
-  container.className = "container bg-[rgba(171,146,146,0.321)] rounded-lg p-6 w-[330px] mx-auto lg:ml-[25rem]   lg:mr-[0.2rem] lg:flex-wrap flex flex-col items-center"; 
+  container.className = "container bg-[rgba(171,146,146,0.321)] lg:w-1/2 rounded-lg p-6 w-[330px] mx-auto lg:ml-[25rem]   lg:mr-[0.2rem] lg:flex-wrap flex flex-col items-center"; 
 
   const appTitle: HTMLHeadingElement = document.createElement("h2");
   appTitle.innerHTML = "To-do List";
